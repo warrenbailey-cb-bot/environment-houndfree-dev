@@ -1,0 +1,15 @@
+adminUser:
+  password: vault:houndfree/adminUser:password
+  username: admin
+dashboardAuthID: vault:houndfree:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:houndfree:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:houndfree/pipelineUser:token
+  username: arcalos-bot
+prow:
+  hmacToken: vault:houndfree/prow:hmacToken
+segmentWriteKey: vault:houndfree:segmentWriteKey
